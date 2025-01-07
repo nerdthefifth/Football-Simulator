@@ -817,120 +817,120 @@ def simulate(index):
                 pt["Wolves"]["GF"] += g1
                 pt["Wolves"]["GA"] += g2
                 pt["Wolves"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Wolves"]["Played"] += 1
             elif matches[i][0].lower() == "southampton":
                 pt["Southampton"]["PTS"] += 3
                 pt["Southampton"]["GF"] += g1
                 pt["Southampton"]["GA"] += g2
                 pt["Southampton"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Southampton"]["Played"] += 1
             elif matches[i][0].lower() == "man city":
                 pt["Man City"]["PTS"] += 3    
                 pt["Man City"]["GF"] += g1
                 pt["Man City"]["GA"] += g2
                 pt["Man City"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Man City"]["Played"] += 1
             elif matches[i][0].lower() == "man utd":
                 pt["Man Utd"]["PTS"] += 3
                 pt["Man Utd"]["GF"] += g1
                 pt["Man Utd"]["GA"] += g2
                 pt["Man Utd"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Man Utd"]["Played"] += 1
             elif matches[i][0].lower() == "west ham":
                 pt["West Ham"]["PTS"] += 3
                 pt["West Ham"]["GF"] += g1
                 pt["West Ham"]["GA"] += g2
                 pt["West Ham"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["West Ham"]["Played"] += 1
             elif matches[i][0].lower() == "chelsea":
                 pt["Chelsea"]["PTS"] += 3
                 pt["Chelsea"]["GF"] += g1
                 pt["Chelsea"]["GA"] += g2
                 pt["Chelsea"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Chelsea"]["Played"] += 1
             elif matches[i][0].lower() == "liverpool":
                 pt["Liverpool"]["PTS"] += 3
                 pt["Liverpool"]["GF"] += g1
                 pt["Liverpool"]["GA"] += g2
                 pt["Liverpool"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Liverpool"]["Played"] += 1
             elif matches[i][0].lower() == "tottenham":
                 pt["Tottenham"]["PTS"] += 3
                 pt["Tottenham"]["GF"] += g1
                 pt["Tottenham"]["GA"] += g2
                 pt["Tottenham"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Tottenham"]["Played"] += 1
             elif matches[i][0].lower() == "nott'm forrest":
                 pt["Nott'm Forrest"]["PTS"] += 3
                 pt["Nott'm Forrest"]["GF"] += g1
                 pt["Nott'm Forrest"]["GA"] += g2
                 pt["Nott'm Forrest"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Nott'm Forrest"]["Played"] += 1
             elif matches[i][0].lower() == "fulham":
                 pt["Fulham"]["PTS"] += 3
                 pt["Fulham"]["GF"] += g1
                 pt["Fulham"]["GA"] += g2
                 pt["Fulham"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Fulham"]["Played"] += 1
             elif matches[i][0].lower() == "newcastle":
                 pt["Newcastle"]["PTS"] += 3
                 pt["Newcastle"]["GF"] += g1
                 pt["Newcastle"]["GA"] += g2
                 pt["Newcastle"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Newcastle"]["Played"] += 1
             elif matches[i][0].lower() == "leicester":
                 pt["Leicester"]["PTS"] += 3
                 pt["Leicester"]["GF"] += g1
                 pt["Leicester"]["GA"] += g2
                 pt["Leicester"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Leicester"]["Played"] += 1
             elif matches[i][0].lower() == "ipswich":
                 pt["Ipswich"]["PTS"] += 3
                 pt["Ipswich"]["GF"] += g1
                 pt["Ipswich"]["GA"] += g2
                 pt["Ipswich"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Ipswich"]["Played"] += 1
             elif matches[i][0].lower() == "arsenal":
                 pt["Arsenal"]["PTS"] += 3
                 pt["Arsenal"]["GF"] += g1
                 pt["Arsenal"]["GA"] += g2
                 pt["Arsenal"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Arsenal"]["Played"] += 1
             elif matches[i][0].lower() == "brighton":
                 pt["Brighton"]["PTS"] += 3
                 pt["Brighton"]["GF"] += g1
                 pt["Brighton"]["GA"] += g2
                 pt["Brighton"]["GD"] += g1-g2
-                pt[team[i][1]]["GD"] += g2-g1
-                pt[team[i][1]]["Played"] += 1
+                pt[matches[i][1]]["GD"] += g2-g1
+                pt[matches[i][1]]["Played"] += 1
                 pt["Brighton"]["Played"] += 1
 
         elif g1<g2:
@@ -939,120 +939,120 @@ def simulate(index):
                 pt["Wolves"]["GF"] += g2
                 pt["Wolves"]["GA"] += g1
                 pt["Wolves"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Wolves"]["Played"] += 1
             elif matches[i][1].lower() == "southampton":
                 pt["Southampton"]["PTS"] += 3
                 pt["Southampton"]["GF"] += g2
                 pt["Southampton"]["GA"] += g1
                 pt["Southampton"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Southampton"]["Played"] += 1
             elif matches[i][1].lower() == "man city":
                 pt["Man City"]["PTS"] += 3    
                 pt["Man City"]["GF"] += g2
                 pt["Man City"]["GA"] += g1
                 pt["Man City"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Man City"]["Played"] += 1
             elif matches[i][1].lower() == "man utd":
                 pt["Man Utd"]["PTS"] += 3
                 pt["Man Utd"]["GF"] += g2
                 pt["Man Utd"]["GA"] += g1
                 pt["Man Utd"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Man Utd"]["Played"] += 1
             elif matches[i][1].lower() == "west ham":
                 pt["West Ham"]["PTS"] += 3
                 pt["West Ham"]["GF"] += g2
                 pt["West Ham"]["GA"] += g1
                 pt["West Ham"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["West Ham"]["Played"] += 1
             elif matches[i][1].lower() == "chelsea":
                 pt["Chelsea"]["PTS"] += 3
                 pt["Chelsea"]["GF"] += g2
                 pt["Chelsea"]["GA"] += g1
                 pt["Chelsea"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Chelsea"]["Played"] += 1
             elif matches[i][1].lower() == "liverpool":
                 pt["Liverpool"]["PTS"] += 3
                 pt["Liverpool"]["GF"] += g2
                 pt["Liverpool"]["GA"] += g1
                 pt["Liverpool"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Liverpool"]["Played"] += 1
             elif matches[i][1].lower() == "tottenham":
                 pt["Tottenham"]["PTS"] += 3
                 pt["Tottenham"]["GF"] += g2
                 pt["Tottenham"]["GA"] += g1
                 pt["Tottenham"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Tottenham"]["Played"] += 1
             elif matches[i][1].lower() == "nott'm forrest":
                 pt["Nott'm Forrest"]["PTS"] += 3
                 pt["Nott'm Forrest"]["GF"] += g2
                 pt["Nott'm Forrest"]["GA"] += g1
                 pt["Nott'm Forrest"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Nott'm Forrest"]["Played"] += 1
             elif matches[i][1].lower() == "fulham":
                 pt["Fulham"]["PTS"] += 3
                 pt["Fulham"]["GF"] += g2
                 pt["Fulham"]["GA"] += g1
                 pt["Fulham"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Fulham"]["Played"] += 1
             elif matches[i][1].lower() == "newcastle":
                 pt["Newcastle"]["PTS"] += 3
                 pt["Newcastle"]["GF"] += g2
                 pt["Newcastle"]["GA"] += g1
                 pt["Newcastle"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Newcastle"]["Played"] += 1
             elif matches[i][1].lower() == "leicester":
                 pt["Leicester"]["PTS"] += 3
                 pt["Leicester"]["GF"] += g2
                 pt["Leicester"]["GA"] += g1
                 pt["Leicester"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Leicester"]["Played"] += 1
             elif matches[i][1].lower() == "ipswich":
                 pt["Ipswich"]["PTS"] += 3
                 pt["Ipswich"]["GF"] += g2
                 pt["Ipswich"]["GA"] += g1
                 pt["Ipswich"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Ipswich"]["Played"] += 1
             elif matches[i][1].lower() == "arsenal":
                 pt["Arsenal"]["PTS"] += 3
                 pt["Arsenal"]["GF"] += g2
                 pt["Arsenal"]["GA"] += g1
                 pt["Arsenal"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Arsenal"]["Played"] += 1
             elif matches[i][1].lower() == "brighton":
                 pt["Brighton"]["PTS"] += 3
                 pt["Brighton"]["GF"] += g2
                 pt["Brighton"]["GA"] += g1
                 pt["Brighton"]["GD"] += g2-g1
-                pt[team[i][0]]["GD"] += g2-g1
-                pt[team[i][0]]["Played"] += 1
+                pt[matches[i][0]]["GD"] += g2-g1
+                pt[matches[i][0]]["Played"] += 1
                 pt["Brighton"]["Played"] += 1
 
         else:
@@ -1695,4 +1695,4 @@ while True:
     if op.lower() == "exit":
         exit()
     if op.lower() == "help":
-        print("Available commands:\n   1.simulate - Simulate Matches\n  2.view - View your team\n   3.exit - Exit the game\n    4.points table - View the points table")
+        print("Available commands:\n   1.simulate - Simulate Matches\n  2.view - View your team\n   3.exit - Exit the game\n    4.points table - View the Poi")
